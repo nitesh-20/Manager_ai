@@ -4,9 +4,8 @@ import "../Header/Nav.css";
 const Nav = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Your Logo</div>
+      <div className="logo">Nitesh</div>
       <ul className="nav-links">
-        <li><a href="#menu">Menu</a></li>
         <li className="dropdown">
           <a href="#reports">Reports</a>
           <div className="dropdown-content">
