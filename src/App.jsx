@@ -1,9 +1,11 @@
 import React from 'react';
-import Menu from './components/Menu/Hero'; // Import Menu component
+import Nav from './components/Header/Nav';
+import Menu from './components/Menu/Hero'; 
 
 const App = () => {
   return (
     <div className="App">
+      <Nav/>
       <Menu />
     </div>
   );
