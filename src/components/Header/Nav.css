@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #0f0c29;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .logo-img {
+      height: 40px;
+      width: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-img:hover {
+      transform: scale(1.1);
+    }
+
+    .shop-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffffff;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    .shop-name:hover {
+      color: #f39c12;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-img {
+    height: 30px;
+  }
+
+  .shop-name {
+    font-size: 20px;
+  }
+}
